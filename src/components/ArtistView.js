@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 
 function ArtistView() {
     var { id } = useParams()
-    var [ artistData, setArtistData ] = useState()
+    var [ artistData, setArtistData ] = useState([])
 
     return (
         <div>
