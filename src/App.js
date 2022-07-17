@@ -1,5 +1,3 @@
-//npm i react-router-dom
-
 import { useState, useRef, Fragment } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
